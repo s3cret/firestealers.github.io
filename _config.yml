@@ -1,11 +1,13 @@
 # Basic
-title: Vno Jekyll
-subtitle: A blog-orientation theme for Jekyll
-welcome_message: <a href="https://github.com/onevcat/vno-jekyll" target="_blank">Download the theme</a>
-description: Vno Jekyll is a port of my Ghost theme vno.
-creator: <a href="http://onev.cat">@onevcat</a>
+title: firestealers
+subtitle: 交流技术，分享乐趣
+welcome_message: 欢迎来到道火技术乐园
+description: This is the default description which you can customize
+creator: <a href="">jesse</a>
 
-url: "http://vno.onevcat.com"
+url:
+host:
+port: 8081
 
 permalink: /:year/:month/:title/
 
@@ -17,33 +19,29 @@ cover_color: red
 
 # The blog button should not be removed.
 blog_button:
-    title: Blog
-    description: Visit blog
+    title: 博客
+    description: 查看博客
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
-    # - {title: Another Button, description: A button, url: 'http://example.com'}
+    # - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: 缺省, description: , url: 'http://example.com'}
 
-# Pagination
+# Pagination, use a a special gem named jekyll-paginate
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 6
 paginate_path: "page/:num/"
 
-# Comment
-comment:
-    disqus: vno-jekyll
-    # duoshuo: 
-    
 # Social
 social:
-    weibo: onevcat
-    github: onevcat
-    twitter: onevcat
-    gplus: 107108267983477358170
-    mail: onev@onevcat.com
+    # weibo:
+    github: firestealers
+    twitter: firestealers
+    # gplus: 
+    mail: github@daohuo.com
 
+# no need for now
 # Google Analytics
-ga:
+# ga:
     # id: your_ga_id
     # host: your_host
