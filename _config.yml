@@ -14,7 +14,7 @@ comment:
     disqus: daohuo # short name
     disqus_url: "https://firestealers.github.io" # site.comment.disqus_url
 
-permalink: /:year/:month/:title/
+# permalink: /:year/:month/:title/
 
 # Format
 highlighter: rouge
