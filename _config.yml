@@ -9,6 +9,11 @@ url: firestealers.github.io
 host:
 port: 8081
 
+# comment
+comment:
+    disqus: daohuo # short name
+    disqus_url: "https://firestealers.github.io" # site.comment.disqus_url
+
 permalink: /:year/:month/:title/
 
 # Format
