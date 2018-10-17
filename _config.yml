@@ -1,3 +1,6 @@
+# exclude files
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'gen-post']
+
 # Basic
 title: firestealers
 subtitle: 交流技术，分享乐趣

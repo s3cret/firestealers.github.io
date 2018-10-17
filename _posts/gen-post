@@ -1,0 +1,42 @@
+#!/bin/bash
+date=$(date +%F)
+post_name=$1
+description=$2
+file_name="$date-$post_name.md"
+
+check(){
+    if [ "$post_name" == "$foo_bar" ]; then
+        echo "Please input your post's name and description(optional)."
+        exit 1
+    fi
+    if [ -e "$file_name" ];then
+        echo "Error: $file_name already exists."
+        exit 1
+    fi
+}
+
+layout(){
+    echo "---" >> $file_name
+
+    echo "layout: post" >> $file_name
+    echo "description: $description" >> $file_name
+
+    # not for now
+    # echo "author: $author" >> $file_name
+    echo "---" >> $file_name
+}
+
+create(){
+    touch "$file_name" &&
+    echo "Successfully create $file_name."
+}
+
+check &&
+if [ $? -eq 0 ];then
+    create && layout
+fi
+
+if [ $? -eq 0 ]; then
+    vim $file_name
+fi
+
