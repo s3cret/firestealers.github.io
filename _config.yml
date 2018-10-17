@@ -2,7 +2,7 @@
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'gen-post']
 
 # Basic
-title: firestealers
+title: 道火校园
 subtitle: 交流技术，分享乐趣
 welcome_message: A place for all hardworking scholars share excitement and enjoyment.
 description: 欢迎来到道火技术乐园
