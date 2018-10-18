@@ -49,9 +49,9 @@ paginate_path: "page/:num/"
 social:
     # weibo:
     github: firestealers
-    twitter: s3crety
+    twitter: jesse_s3cret
     # gplus: 
-    mail: github@daohuo.com
+    mail: github@daohuoyun.com
 
 # no need for now
 # Google Analytics
