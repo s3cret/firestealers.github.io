@@ -4,7 +4,7 @@ README
 #### Notes
 * Dependencies defined in Gemfile and Gemfile.lock.
 * Articles will not be displayed if its date-set is a head of the current date.
-* :bowtie: [Emoji cheet sheet](http://www.emoji-cheat-sheet.com/)
+* [Emoji cheet sheet](http://www.emoji-cheat-sheet.com/) :bowtie: 
 
 #### Requirements
 * Ruby version 2.2.5 or above, including all development headers (ruby version can be checked by running `ruby -v`
